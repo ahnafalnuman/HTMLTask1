@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./style/productStyle.css">
+</head>
+<body>
+
+    <header> 
+        <div class="header-container"> 
+            <div> 
+                <img src="./image/logo.png" alt="logo image" class="logo">
+                <div id="company-name"> Azary House</div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Products.html">Products</a></li>
+                    <li><a href="./Company.html">Company</a></li>
+                    <li><a href="./More.html">More</a></li>
+                </ul>
+                <input type="search" placeholder="Search">
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Products</h1>
+
+        <table class="products-table">
+            <caption>Products List</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Product Name</th>
+                    <th>Price ($)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Beverages</td>
+                    <td>Douches</td>
+                    <td>2.50</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>Energy Drinks</td>
+                    <td>Red Bull</td>
+                    <td>3.00</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Add New Product</h2>
+        <form id="add-product-form">
+            <label for="product-category">Category:</label><br>
+            <input type="text" id="product-category" name="product-category" required><br><br>
+
+            <label for="product-name">Product Name:</label><br>
+            <input type="text" id="product-name" name="product-name" required><br><br>
+
+            <label for="product-price">Price ($):</label><br>
+            <input type="number" id="product-price" name="product-price" step="0.01" required><br><br>
+
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Products.html">Products</a></li>
+            <li><a href="./Company.html">Company</a></li>
+            <li><a href="./More.html">More</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
