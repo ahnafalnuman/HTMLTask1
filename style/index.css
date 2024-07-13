@@ -71,19 +71,20 @@ input[type="search"]:focus {
 
 main {
     max-width: auto;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #dce0e4;
    
     border-radius: 5px;
 }
 
-main h1 {
+ h1  {
     text-align: center;
-    font-size: 2.5rem;
-    color: #007BFF;
+    font-size: 20 px;
+    color: #5989c0;
     margin-bottom: 20px;
 }
+
 
 .content-container {
     display: flex;
@@ -92,7 +93,7 @@ main h1 {
 }
 
 section {
-    background-color: #e4dada;
+    background-color: #a6c6db;
     padding: 20px;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
@@ -109,8 +110,8 @@ section {
 }
 
 section h2 {
-    font-size: 1.5rem;
-    color: #007BFF;
+    font-size: 25px;
+    color: #36444d;
     margin-bottom: 15px;
 }
 

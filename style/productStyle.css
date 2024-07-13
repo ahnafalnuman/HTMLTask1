@@ -1,4 +1,4 @@
-/* Styles for header and navigation */
+
 header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #DDDDDD;
@@ -56,7 +56,6 @@ input[type="search"] {
     margin-left: 20px;
 }
 
-/* Styles for main content */
 main {
     max-width: auto;
     margin: 20px auto;
@@ -101,7 +100,6 @@ main {
     text-align: center;
 }
 
-/* Styles for form */
 form {
     max-width: 400px;
     margin: 20px auto;
@@ -130,14 +128,12 @@ form button {
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 form button:hover {
     background-color: #218838; 
 }
 
-/* Styles for footer */
 footer {
     background-color:hwb(211 29% 20%);
     border-top: 1px solid #DDDDDD;
