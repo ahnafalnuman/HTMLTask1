@@ -15,7 +15,7 @@ header {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -67,7 +67,10 @@ input[type="search"]:focus {
 }
 
 main {
-    background-color: #dce0e4;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+
 
 }
 
@@ -81,10 +84,7 @@ h2 {
     color: #c43a3a;
     margin-bottom: 15px;
 }
-h5{
-    margin-bottom: 15px;
-    text-align: center
-}
+
 .content-container {
     display: flex;
     justify-content: space-between;
@@ -93,7 +93,7 @@ h5{
 
 section {
     background-color: #a6c6db;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #DDDDDD;
     flex: 1;
     text-align: center;
@@ -108,17 +108,11 @@ section {
 
 
 
-section p {
-    font-size: 1rem;
-    color: #6C757D;
-    margin-bottom: 20px;
-}
-
 button {
     background-color: #28A745;
     color: #FFFFFF;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
 }
 
@@ -126,12 +120,8 @@ button:hover {
     background-color: #f90000;
 }
 
-.products {
-    margin-top: 10px;
-    padding: 10px;
+.products { 
     background-color:#f1f4f7;
-    border: 1px solid #DDDDDD;
-    border-radius: 5px;
     text-align: center;
     color: #1364b5;
 }
@@ -140,7 +130,6 @@ footer {
     background-color: hwb(211 39% 15%);
     padding: 10px 10px;
     text-align: center;
-    margin-top: 20px;
 }
 
 footer a {
