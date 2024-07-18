@@ -62,34 +62,35 @@ main {
     border-radius: 5px;
 }
 
-.products-table {
+
+#products-table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
-.products-table caption {
+ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.products-table th, .products-table td {
+th,  td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #DDDDDD;
     text-align: center;
 }
 
-.products-table th {
+ th {
     background-color:hwb(211 29% 20%);
     color: #FFFFFF;
 }
 
 
 form {
-    max-width: 400px;
+    max-width: 50%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #F9F9F9;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
@@ -107,16 +108,12 @@ form input[type="text"], form input[type="number"] {
     border-radius: 3px;
 }
 
-form button {
+form input[type="submit"] {
     background-color: #28A745; 
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-}
-
-form button:hover {
-    background-color: #218838; 
 }
 
 footer {

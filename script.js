@@ -1,12 +1,12 @@
 const form = document.getElementById('add-product-form');
-const tableBody = document.getElementById("tbody");
+const tableBody = document.querySelector("tbody");
 
 function addProduct(event) {
     event.preventDefault();
     
-    let category = event.target['product-category'].value;
-    let name = event.target['product-name'].value;
-    let price = event.target['product-price'].value;
+    let category = event.target['productCategory'].value;
+    let name = event.target['productName'].value;
+    let price = event.target['productPrice'].value;
 
     const newRow = document.createElement('tr');
     newRow.innerHTML = `
